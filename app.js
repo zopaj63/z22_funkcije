@@ -13,5 +13,5 @@ function findFizzBuzz(min, max, word1, word2) {
 var fizzBuzz1 = findFizzBuzz(10, 200, "fizz", "buzz");
 console.log(fizzBuzz1);
 
-var fizzBuzz2 = findFizzBuzz(5, 40, "zzif", "zzub");
+var fizzBuzz2 = findFizzBuzz(5, 40, "Hello", "World");
 console.log(fizzBuzz2);
