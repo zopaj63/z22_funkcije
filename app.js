@@ -1,4 +1,4 @@
-function findFizzBuzz(min, max, word1, word2) {
+function findFizzBuzz(min = 0, max, word1, word2) {
     var fizzBuzz = [];
     for (var i = min; i <= max; i++) {
         if (i === 0) continue;
