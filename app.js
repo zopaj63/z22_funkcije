@@ -1,10 +1,10 @@
-function findFizzBuzz(min = 0, max, word1, word2) {
+function findFizzBuzz(min = 0, max, word3, word5) {
     var fizzBuzz = [];
     for (var i = min; i <= max; i++) {
         if (i === 0) continue;
         var message = "";
-        if (i % 3 === 0) message += word1;
-        if (i % 5 === 0) message += word2;
+        if (i % 3 === 0) message += word3;
+        if (i % 5 === 0) message += word5;
         if (message !== "") fizzBuzz.push(message);
     }
     return fizzBuzz;
